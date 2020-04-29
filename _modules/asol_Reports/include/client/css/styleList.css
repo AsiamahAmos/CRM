@@ -1,0 +1,33 @@
+/*CRM Instance bugs*/
+
+input[type="file"] {
+    display: inline !important;
+}
+
+#copyright_data div#dialog,
+#copyright_data div#dialog2 {
+	display: none;
+}
+
+/*CRM Instance bugs*/
+
+.alineasol_reports i{
+	margin: 0 3px;
+}
+.alineasol_reports button i {
+    margin: 0;
+}
+
+.alineasol_reports .clickable {
+	cursor: pointer;
+	cursor: hand;
+}
+/*Suite P theme fix*/
+.list .pagination td table td button{
+	width:auto;
+}
+/*Suite P theme fix*/
+
+.asolReportsRow.draft {
+	outline: thin solid #e17420;
+}

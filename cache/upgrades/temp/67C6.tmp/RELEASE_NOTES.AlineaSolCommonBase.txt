@@ -1,0 +1,207 @@
+NEW RELEASES SINCE VERSION 1.0
+
+
+AlineaSolCommonBase v2.10.0 Enterprise:
+
+- Added support to select button format icons from common library.
+
+- Added support to manage bookmarks at AlineaSol modules.
+
+
+
+AlineaSolCommonBase v2.9.1 Community:
+
+- Moved some module functions to "Common libraries".
+
+
+
+AlineaSolCommonBase v2.9.0 Community:
+
+- Migrated all of the images to "Font Icons".
+
+
+
+AlineaSolCommonBase v2.8.5 Community:
+
+- Added support to load jQuery scripts directly form sevrer (only internal usage).
+
+- Improvements at calendar picker initialization logic.
+
+
+
+AlineaSolCommonBase v2.8.4 Community:
+
+- Added "quick search" support for relate format.
+
+- Bugfix: new function that manages currency symbol position, did not used the user currency.
+
+
+AlineaSolCommonBase v2.8.4 Enterprise:
+
+- Added default value option for int, double, decimal and currency.
+
+
+
+AlineaSolCommonBase v2.8.3 Community:
+
+- Non gregorian calendar is now able to correctly process persian characters.
+
+- Bugfix: On calendar picker, fixed styling issue that caused month and year selectors to show off-center.
+
+
+AlineaSolCommonBase v2.8.3 Enterprise:
+
+- New button format type "Web service": "config_override feature".
+
+- Added support to define confirmation labels to some format buttons: PHP Code, Ajax Request & Web Service.
+
+- Added support to massive buttons: PHP Button & Javascript button (only available for Reports)
+
+
+
+AlineaSolCommonBase v2.8.2 Community:
+
+- Added configuration page at index page of module (only for administrators).
+
+- Bugfix: Fixed issue with getRelationshipObject() on SuiteCRM and PHP 7.
+
+
+AlineaSolCommonBase v2.8.2 Enterprise:
+
+- Added "Keep Order" and "Null Option" to enum and multienum formats.
+ 
+- Added popup selection on menu management for searching elements.
+
+- New button format type: PHP code.
+
+
+
+AlineaSolCommonBase v2.8.1 Community:
+
+- Managed some improvements on new calendar library.
+
+- Bugfix: Fixed character escaping issue with calendar picker at user input filters and in execution mode when the filter reference contains a . or a # character.
+
+
+
+AlineaSolCommonBase v2.8 Enterprise:
+
+- Added visibility properties to menus management.
+
+
+AlineaSolCommonBase v2.8 Community:
+
+- Added visibility roles to menus management.
+
+- BugFix: issues with calendar library that caused non date type filter parameters are treated as date/datetime inputs (Characters are not allowed).
+
+
+
+AlineaSolCommonBase v2.7 Community:
+
+- Added support for Persian calendar (definable at user configuration page).
+
+
+
+AlineaSolCommonBase v2.6 Community:
+
+- Added new calendar picker to be used in AlineaSol modules. This picker will allow you to use non-gregorian calendars (not by now).
+
+- Added function 'hasPreviewExecution' for Forms&Views and Reports.
+
+- BugFix FancyMultienum bad width on google Chrome.
+
+
+
+AlineaSolCommonBase v2.5 Enterprise:
+
+- Added support to select target for Report's HTML links
+
+- Aded row level for thresholds format.
+ 
+- Aded visibility icon to enum item element.
+
+
+AlineaSolCommonBase v2.5 Community:
+
+- Added suport new Pdf page formats sizes in user configuration
+
+
+
+AlineaSolCommonBase v2.4 Community:
+
+-Fixed issues on modules intercompatibility.
+ 
+
+AlineaSolCommonBase v2.3 Enterprise:
+
+- Added support to define properties to be used at some of the AlineaSol modules (administration panel section).
+
+- Moved some premium features (Reports + Forms) to CommonBase. 
+
+- Common Base now processes License Server messages as JSON.
+
+- Improved some messages from the License Server.
+
+- BugFix: If there is a license server error, user is allowed to continue using the product, if he already entered the license.
+
+
+AlineaSolCommonBase v2.3 Community: 
+
+- Common Base now processes License Server messages as JSON.
+
+- Improved some messages from the License Server.
+
+
+
+AlineaSolCommonBase v2.2 Enterprise:
+
+- Added support for element button type format: available at Forms & Reports.
+
+- Added support for relate type format: available at Forms.
+
+
+
+AlineaSolCommonBase v2.1 Community + Enterprise:
+
+- BugFix: Fixed problem with submitLicenseForm javascript function. The way it was included caused isues with processing of JSON responses.
+
+
+
+AlineaSolCommonBase v2.0:
+
+- Enhanced database & files structure.
+
+- Moved CSS customization section from Common Base to Reports module (administration panel section).
+
+
+
+AlineaSolCommonBase v1.5:
+
+- Chinese Language Supported. Thanks to Guo Baoying!! :)
+
+
+
+AlineaSolCommonBase v1.4:
+
+- Russian Language Supported. Thanks to Vladimir Kozyrev!! :)
+
+
+
+AlineaSolCommonBase v1.3:
+
+- BugFix: Unused CSS Files are linked on configuration page.
+
+- BugFix: Custom CSS Files for Reports are uploaded at the wrong path.
+
+
+
+AlineaSolCommonBase v1.2:
+
+- Portuguese Language Supported. Thanks to Pedro Ribeiro!! :)
+
+
+
+AlineaSolCommonBase v1.1:
+
+- French Language Supported. Thanks to Francis Richter!! :)

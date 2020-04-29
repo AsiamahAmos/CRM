@@ -1,0 +1,71 @@
+//*******************************//
+//*********WS Definition*********//
+//*******************************//
+
+Method:
+	executeAlineaSolReport
+
+	
+Input Parameters:
+	session				(xsd:string)		Active session_id from SugarCRM instance
+	reportId			(xsd:string)		Report id to be executed
+	staticFilters		(xsd:string)		Used for override report filters (specially used for Report fields)
+	sortField			(xsd:string)		Field internal name to be sorted
+	sortDirection		(xsd:string)		Sorted field's direction (ASC, DESC)
+	sortIndex			(xsd:string)		Sorted field's internal index
+	pageNumber			(xsd:string)		Page number to be presented (pagination)
+	isDashlet			(xsd:boolean)		Represents the context in which the report is used (behaviour may be different)
+	dashletId			(xsd:string)		dashlet id if it is a dashlet (of course!)
+	getLibraries		(xsd:boolean)		gets necesary libraries for report execution
+	overrideEntries		(xsd:string)		override the number of entries per page for report execution
+	externalFilters		(xsd:string)		Used for override report filters
+	currentUserId		(xsd:string)		User id to be managed at report remote execution. To use the same user as used at login
+	currentLanguage		(xsd:string)		Language to be presented at report (en_us, es_es, fr_FR, zh_cn...)
+	contextDomainId		(xsd:string)		If domains module is installed, context domain to be executed at report
+	
+	
+Output	(xsd:string)
+
+
+
+//*************************************//
+//*********WS PHP Call Example*********//
+//*************************************//
+
+<?php
+
+$method = "executeAlineaSolReport";
+$entrySet = array(
+	'session' => '607e4sfinv1jmnng8ag6raj2v4',
+	'reportId' => '103f0899-0c51-964c-13d0-54db2f4fc600',
+	'staticFilters' => true,
+	'sortField' => '',
+	'sortDirection' => '',
+	'sortIndex' => '',
+	'pageNumber' => '',
+	'isDashlet' => false,
+	'dashletId' => '',
+	'getLibraries' => true,
+	'overrideEntries' => '20',
+	'externalFilters' => '',
+	'currentUserId' => '1',
+	'currentLanguage' => 'en_us',
+	'contextDomainId' => null
+);
+
+$curl = curl_init();
+
+curl_setopt($curl, CURLOPT_URL, "www.example.com/sugarCRM/custom/service/vAlineaSolReports/rest.php");
+curl_setopt($curl, CURLOPT_POST, true);
+curl_setopt($curl, CURLOPT_POSTFIELDS, "method=".$method."&input_type=json&response_type=json&rest_data=".json_encode($entrySet));
+curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+
+$curlReponse = curl_exec($curl);
+curl_close($curl);
+
+$reportHtml = json_decode($curlReponse, true);
+
+echo $reportHtml;
+
+?>

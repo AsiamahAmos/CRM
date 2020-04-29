@@ -1,0 +1,13 @@
+<?php 
+ //WARNING: The contents of this file are auto-generated
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_HR_MA_HELP_AOK_KNOWLEDGEBASE_1_FROM_AOK_KNOWLEDGEBASE_TITLE'] = 'Knowledge Base';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_HR_MA_HELP_AOK_KNOWLEDGEBASE_1_FROM_AOK_KNOWLEDGEBASE_TITLE'] = 'Knowledge Base';
+$mod_strings['LBL_HR_MA_HELP_CONTACTS_1_FROM_CONTACTS_TITLE'] = 'Contacts';
+
+?>

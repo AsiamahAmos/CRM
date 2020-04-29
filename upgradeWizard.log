@@ -1,0 +1,24 @@
+Tue, 20 Nov 2018 22:12:22 +0100 [UpgradeWizard] - setting session variables...
+Tue, 20 Nov 2018 22:12:22 +0100 [UpgradeWizard] - -----------------------------------------------------------------------------
+Tue, 20 Nov 2018 22:12:22 +0100 [UpgradeWizard] - Upgrade started. At start.php
+Tue, 20 Nov 2018 22:12:22 +0100 [UpgradeWizard] - at unlinkUWTempFiles()
+Tue, 20 Nov 2018 22:12:22 +0100 [UpgradeWizard] - finished!
+Tue, 20 Nov 2018 22:12:22 +0100 [UpgradeWizard] - resetting $_SESSION
+Tue, 20 Nov 2018 22:13:03 +0100 [UpgradeWizard] - setting session variables...
+Tue, 20 Nov 2018 22:13:03 +0100 [UpgradeWizard] - -----------------------------------------------------------------------------
+Tue, 20 Nov 2018 22:13:03 +0100 [UpgradeWizard] - Upgrade started. At start.php
+Tue, 20 Nov 2018 22:13:03 +0100 [UpgradeWizard] - at unlinkUWTempFiles()
+Tue, 20 Nov 2018 22:13:03 +0100 [UpgradeWizard] - finished!
+Tue, 20 Nov 2018 22:13:03 +0100 [UpgradeWizard] - resetting $_SESSION
+Fri, 23 Nov 2018 18:33:35 +0100 [UpgradeWizard] - setting session variables...
+Fri, 23 Nov 2018 18:33:35 +0100 [UpgradeWizard] - -----------------------------------------------------------------------------
+Fri, 23 Nov 2018 18:33:35 +0100 [UpgradeWizard] - Upgrade started. At start.php
+Fri, 23 Nov 2018 18:33:35 +0100 [UpgradeWizard] - at unlinkUWTempFiles()
+Fri, 23 Nov 2018 18:33:35 +0100 [UpgradeWizard] - finished!
+Fri, 23 Nov 2018 18:33:35 +0100 [UpgradeWizard] - resetting $_SESSION
+Tue, 22 Jan 2019 13:54:40 +0100 [UpgradeWizard] - setting session variables...
+Tue, 22 Jan 2019 13:54:40 +0100 [UpgradeWizard] - -----------------------------------------------------------------------------
+Tue, 22 Jan 2019 13:54:40 +0100 [UpgradeWizard] - Upgrade started. At start.php
+Tue, 22 Jan 2019 13:54:40 +0100 [UpgradeWizard] - at unlinkUWTempFiles()
+Tue, 22 Jan 2019 13:54:40 +0100 [UpgradeWizard] - finished!
+Tue, 22 Jan 2019 13:54:40 +0100 [UpgradeWizard] - resetting $_SESSION

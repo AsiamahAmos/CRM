@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SugarCRM//SugarCRM Calendar//EN
+BEGIN:VEVENT
+UID:ae9d61a5-2b54-32e9-d75c-5bcfa4752524
+ORGANIZED;CN=Amos Administrator:aasiamah13@gmail.com
+DTSTART:20181128T134500Z
+DTEND:20181128T134500Z
+DTSTAMP:20181128T134400Z
+SUMMARY:Discuss pricing
+LOCATION:
+DESCRIPTION:Meeting to discuss project plan and bring out the details of im
+	plementation
+END:VEVENT
+END:VCALENDAR

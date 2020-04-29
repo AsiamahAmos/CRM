@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 version="3.17.0.1" platform="windows">
+	<Queue>
+		<Server>
+			<Host>unionsg.com</Host>
+			<Port>21</Port>
+			<Protocol>0</Protocol>
+			<Type>0</Type>
+			<User>issuestest@unionsg.com</User>
+			<Logontype>2</Logontype>
+			<TimezoneOffset>0</TimezoneOffset>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<MaximumMultipleConnections>0</MaximumMultipleConnections>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<File>
+				<LocalFile>C:\Users\USG\AppData\Local\Temp\fz3temp-1\index.php</LocalFile>
+				<RemoteFile>index.php</RemoteFile>
+				<RemotePath>1 0</RemotePath>
+				<Download>1</Download>
+				<Size>38</Size>
+				<Priority>3</Priority>
+				<DataType>0</DataType>
+			</File>
+		</Server>
+	</Queue>
+</FileZilla3>

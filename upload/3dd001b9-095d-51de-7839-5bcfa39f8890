@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SugarCRM//SugarCRM Calendar//EN
+BEGIN:VEVENT
+UID:3dd001b9-095d-51de-7839-5bcfa39f8890
+ORGANIZED;CN=Amos Administrator:aasiamah13@gmail.com
+DTSTART:20181128T133000Z
+DTEND:20181128T153000Z
+DTSTAMP:20181128T133600Z
+SUMMARY:Follow-up on proposal
+LOCATION:Accra
+DESCRIPTION:Meeting to discuss project plan and bring out the details of im
+	plementation
+END:VEVENT
+END:VCALENDAR
